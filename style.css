@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.cc__navbar {
+  background-color: #fff;
+  box-shadow: 0 3px 13px #24293023;
+  padding: 20px 0;
+}
+
+.container__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container__navbar__links {
+  display: flex;
+  align-items: center;
+}
+
+.container__navbar__links__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container__navbar__links__list li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.container__navbar__links__list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+  padding-inline: 20px;
+  transition: color 0.3s;
+}
+
+.container__navbar__links__apply,
+.hero__apply {
+  margin-left: 40px;
+  padding: 12px 35px;
+  background: linear-gradient(145deg, #f4b011, #ed7920);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.hero__apply {
+  margin-left: 0;
+}
+
+.funding-header {
+  padding: 3rem 0;
+}
+
+.text-orange {
+  color: #ee801e;
+}
+
+.btn-apply-funding {
+  background: linear-gradient(145deg, #f4b011, #ed7920);
+  color: white;
+  padding: 14px 80px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn-apply-funding:hover {
+  background-color: #d67218;
+  color: white;
+}
+
+.funding-header__container {
+  max-width: 90%;
+}
+
+.cc-lh-1 {
+  line-height: 1.2;
+}
+
+.funding-header__description {
+  font-size: 24px;
+}
+
+.funding-cards {
+  background: #f8f8f8;
+}
+
+.funding-cards__description {
+  margin-bottom: 50px;
+}
+
+.affiliate-section {
+  background: linear-gradient(145deg, #f4b011, #ed7920);
+}
